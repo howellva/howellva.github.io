@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
- 
-<head>
+  <head>
+​
     <meta charset="UTF-8">
-    <title>HW 11</title>
+ 
+​
+    <title>hw 11</title>
 ​
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
+​
   </head>
 ​
-
   <body>
     <!--BOOTSTRAP NAVBAR DOCUMENTATION-->
 	<div class="navigation">
@@ -20,7 +21,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 ​
-        <!-- DROPDOWN DOCUMENTATION-->
+         <!-- DROPDOWN DOCUMENTATION-->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
@@ -33,7 +34,7 @@
               </div>
             </li>
             <li class="nav-item">
-			  <a class="nav-link" href="comparison.html">Comparison</a>
+            <a class="nav-link" href="comparison.html">Comparison</a>
 			</li>
             <li class="nav-item">
 			  <a class="nav-link" href="data.html">Data</a>
@@ -42,23 +43,21 @@
         </div>
       </nav>
 	</div>
-   
-
-  <!-- Container Stuff Latvs X--> ​
+    
+​
+     <!-- Container Stuff Latvs X--> ​
     <div class="container">
       <section class="row">
-
         <div class="col-lg-7 col-md-12">
-          <div class="stuff">
-            <h1 class="header">Summary: Latitude vs. X</h1>
+          <div class="content">
+            <h1 class="header">Max Temperature</h1>
             <hr>
-            <img src="Resources/assets//Fig1.png" alt="Latitude vs. Max Temperature" class="image">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            <img src="Resources/assets/Fig1.png" alt="Latitude vs. Max Temperature">
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0&deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
           </div>
         </div>
-
         <div class="col-lg-5 col-md-12">
+​
           <!-- Links and Visualization --> ​
           <section id="imageNav-area">
             <div class="content2">
@@ -70,10 +69,10 @@
                     <a href="temp.html"> <img src="Resources/assets/Fig1.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo"> </a>
 				  </div>
 				  <div class="col-6">
-                    <a href="humidity.html"><img src="Resources/assets/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo"> </a>
-                    </div>
+                    <a href="humidity.html"> <img src="Resources/assets/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo"> </a>
+				  </div>
 				  <div class="col-6">
-                    <a href="cloudiness.html"> <img src="Resources/assets/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo"> </a>
+                    <a href="cloudiness.html">  <img src="Resources/assets/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo"> </a>
 				  </div>
 				  <div class="col-6">
                     <a href="wind.html"> <img src="Resources/assets/Fig4.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed", class="imageNav-photo"> </a>
@@ -83,13 +82,11 @@
             </div>
           </section>
           
+​
         </div>
-        
       </section>
     </div>
-   
-​
-	
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
